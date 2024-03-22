@@ -1,0 +1,42 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-image: url(images/bg.jpeg);
+    background-size: 175vh;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#dealer-el, #dealerSum-el {
+    font-weight: bolder;
+    background-color: rgba(130, 130, 130, 0.543);
+    width: 30%;
+    margin: 5px auto; 
+    padding: 5px 0;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+.button {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    font-weight: bold;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 2px;
+    margin: 5px 0;
+}
